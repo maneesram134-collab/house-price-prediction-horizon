@@ -1,27 +1,39 @@
-# Titanic Dataset - Exploratory Data Analysis
+# House Price Prediction using Machine Learning
 
 ## Project Overview
-This project performs comprehensive EDA on the Titanic dataset to analyze survival patterns.
+This project builds a machine learning model to predict house prices based on various features.
 
-## Key Findings
-- Overall survival rate: 38%
-- Women had 74% survival vs 18% for men
-- 1st class: 63% survival, 3rd class: 24% survival
-- Children had higher survival than adults
+## Key Results
+- **Best Model**: Random Forest
+- **R² Score**: 86% accuracy
+- **RMSE**: $38,195
+- **Mean Error**: 6.04%
+
+## Features Used
+- Size (sq ft)
+- Bedrooms & Bathrooms
+- Age of house
+- Location Quality
+- Distance to city center
+- Neighborhood type
+- Garage spaces
 
 ## Files in this Repository
-- `Project_A_Exploratory_Data_Analysis_(EDA).on_a_Titanic_or_Iris_dataset.ipynb` - Main notebook
-- `/screenshots` - All visualizations captured during analysis
+- `House_Price_Prediction.ipynb` - Main Jupyter/Colab notebook
+- Multiple screenshot files - Visualizations and results
 
 ## Screenshots Included
-- Survival analysis
-- Gender-based analysis
-- Class-based analysis
-- Age and fare distributions
+- Feature distributions
+- Price vs features relationships
 - Correlation heatmap
+- Model comparison charts
+- Random Forest performance
+- Feature importance chart
 
 ## How to Run
 Open the notebook in Google Colab and run all cells.
 
-## Libraries Used
-- pandas, numpy, matplotlib, seaborn, plotly, scipy
+## Technologies Used
+- Python, pandas, numpy
+- matplotlib, seaborn
+- scikit-learn (various regression models)
